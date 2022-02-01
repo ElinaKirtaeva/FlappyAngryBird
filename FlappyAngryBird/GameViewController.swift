@@ -11,6 +11,7 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,6 +23,7 @@ class GameViewController: UIViewController {
                 
                 // Present the scene
                 view.presentScene(scene)
+
             }
             
             view.ignoresSiblingOrder = true
@@ -46,4 +48,5 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
 }
